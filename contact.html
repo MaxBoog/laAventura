@@ -95,22 +95,20 @@
 		<section class="container cont">
 			<div class="row">
 				<div class="col-md-12">
-					<form id="contact-form" method="POST" data-netlify="true">
-                        <div class="messages"></div>
+					<form id="contact-form" form name="contact" method="POST" data-netlify="true">
                         <div class="controls">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Voornaam *" required="required" data-error="Het invullen van uw voornaam is verplicht.">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="firstname *" required="required" data-error="required">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
 
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Achternaam *" required="required"
-                                            data-error="Het invullen van uw achternaam is verplicht.">
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="lastname *" required="required"
+                                            data-error="required">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -119,14 +117,14 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
 
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Email *" required="required" data-error="Dit is geen geldig e-mailadres">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="e-mail *" required="required" data-error="required">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
 
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Telefoonnummer">
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="telephone">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -135,26 +133,18 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
 
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Uw bericht... *" rows="4" required="required"
-                                            data-error="Zonder bericht wordt het lastig om u te helpen."></textarea>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="message... *" rows="4" required="required"
+                                            data-error="please enter a message"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label>
-                                            <input type="checkbox" required="required" data-error="U dient akkoord te gaan met de algemene voorwaarden" class="checkbox"> Ik ga akkoord met de
-                                            <a href="assets/docs/Algemene-voorwaarden-dienstverlening-B2B.pdf" target="_blank">algemene voorwaarden</a>
-                                        </label>
-                                    </div>
-								</div>
 								<div class="col-md-12">
 									<div class="form-group">
 										<div data-netlify-recaptcha="true"></div>
 									</div>
 								</div>
                                 <div class="col-md-12">
-                                    <input type="submit" class="btn btn-send" value="Send Message">
+                                    <button type="submit" class="btn btn-send">Send Message</button>
                                 </div>
                             </div>
                         </div>
