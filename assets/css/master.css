@@ -99,26 +99,27 @@ a {
   cursor: pointer; }
 
 .btn-CTA-2 {
-  background-color: #b9e1dc;
-  border: 5px solid #ff610d !important;
+  background-color: #fbfbfb;
+  border: 5px solid #16738f !important;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  font-size: 3.2rem; }
+  font-size: 2rem; }
   .btn-CTA-2:hover {
-    background-color: #ff610d;
-    border: 5px solid #ff610d; }
+    color: #fbfbfb;
+    background-color: #16738f;
+    border: 5px solid #16738f; }
   .btn-CTA-2:active {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    color: white !important;
-    background-color: #ff610d !important;
-    border-color: #ff610d !important;
+    color: #fbfbfb !important;
+    background-color: #16738f !important;
+    border-color: #16738f !important;
     outline: none !important; }
   .btn-CTA-2:focus {
-    color: white !important;
-    background-color: #ff610d !important;
-    border-color: #ff610d !important;
+    color: #fbfbfb !important;
+    background-color: #16738f !important;
+    border-color: #16738f !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 

@@ -39,12 +39,18 @@
 				your experience and security.
 			</p>
 		<![endif]-->
+	<!-- spinner -->
+	<script>
+		document.querySelector("body").style.display = "none";
+		document.querySelector("html").classList.add("spinner-3");
+
+		setTimeout(function () {
+			document.querySelector("html").classList.remove("spinner-3");
+			document.querySelector("body").style.display = "block";
+		}, 1500);
+	</script>
 
 	<!-- body -->
-
-	<button class="btn scrollToTop">
-		<i class="fas fa-angle-up fa-2x"></i>
-	</button>
 
 	<!-- navigation -->
 
@@ -87,71 +93,21 @@
 	</header>
 	<section class="container">
 		<div class="row">
-			<h1 class="mx-auto header-text">Contact Us!</h1>
+			<h1 class="mx-auto header-text">Succes</h1>
 		</div>
 	</section>
 
 	<main role="main">
-		<section class="container cont">
-			<div class="row">
-				<div class="col-md-12">
-					<form id="contact-form" form name="contact" method="POST" data-netlify="true" action="succes.html">
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="firstname *" required="required" data-error="required">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-
-                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="lastname *" required="required"
-                                            data-error="required">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="e-mail *" required="required" data-error="required">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-
-                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="telephone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="message... *" rows="4" required="required"
-                                            data-error="please enter a message"></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-								<div class="col-md-12">
-									<div class="form-group">
-										<div data-netlify-recaptcha="true"></div>
-									</div>
-								</div>
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-send">Send Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-				</div>
-			</div>
-		</section>
+        
+        <section class="container cont">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="pb-5">Your message was well recieved. Expect a response soon!</h1>
+                </div>
+                <div class="col-md-6"><a href="/" class="btn btn-CTA-2 d-block justify-content-center pt-5 pb-5 mb-5 mb-md-0">Go back to the homepage <i class="fas fa-home"></i></a></div>
+                <div class="col-md-6"><a href="contact.html" class="btn btn-CTA-2 d-block justify-content-center pt-5 pb-5">Go back to the contact page <i class="far fa-envelope"></i></a></div>
+            </div>
+        </section>
 
 		<!-- footer -->
 
@@ -205,10 +161,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
-	<script src="assets/js/validator.min.js"></script>
-	<script src="assets/js/jquery-easing.min.js"></script>
-	<script src="assets/js/scrollreveal.min.js"></script>
-	<script src="assets/js/scripts.min.js"></script>
 </body>
 
 </html>

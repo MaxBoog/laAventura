@@ -57,25 +57,26 @@
 // secondary Call to Action button
 
 .btn-CTA-2 {
-	background-color: $light-blue;
-	border: 5px solid $red !important;
+	background-color: $white;
+	border: 5px solid $blue !important;
 	transition: 0.3s;
-	font-size: $f-bigger;
+	font-size: $f-normal;
 	&:hover {
-		background-color: $red;
-		border: 5px solid $red;
+		color: $white;
+		background-color: $blue;
+		border: 5px solid $blue;
 	}
 	&:active {
 		box-shadow: none !important;
-		color: white !important;
-		background-color: $red !important;
-		border-color: $red !important;
+		color: $white !important;
+		background-color: $blue !important;
+		border-color: $blue !important;
 		outline: none !important;
 	}
 	&:focus {
-		color: white !important;
-		background-color: $red !important;
-		border-color: $red !important;
+		color: $white !important;
+		background-color: $blue !important;
+		border-color: $blue !important;
 		box-shadow: none !important;
 	}
 }
