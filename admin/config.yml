@@ -1,8 +1,0 @@
-backend:
-  name: git-gateway
-  branch: master
-media_folder: assets/img/images
-public_folder: "img"
-collection:
-  
-
