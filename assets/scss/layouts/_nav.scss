@@ -1,3 +1,7 @@
+
+
+// main navigation
+
 .navbar-custom {
 	background-color: $white;
 	border-bottom: 2px solid $purple;
@@ -96,4 +100,21 @@ nav.navbar.shrink {
 .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
 	transform: rotate(-45deg) translate(4px, -4px);
 	transition: ease all 0.2s;
+}
+
+
+// tours navigation
+
+.nav-tours {
+	background-color: transparent;
+	margin-bottom: 5rem;
+	padding: 2rem;
+	.nav-item {
+		font-size: $f-big;
+		font-weight: 900;
+		transition: 0.2s ease;
+		background-color: $white;
+		padding: 2rem;
+		margin-bottom: 2rem;
+	}
 }

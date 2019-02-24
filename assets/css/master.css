@@ -202,6 +202,10 @@ a {
   margin: 2.5rem 0;
   color: #6c5e81; }
 
+.tours-heading {
+  font-size: 3.2rem;
+  color: #777777; }
+
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   border: none !important;
   border-radius: 0 !important;
@@ -348,6 +352,20 @@ nav.navbar.shrink {
   -o-transition: ease all 0.2s;
   transition: ease all 0.2s; }
 
+.nav-tours {
+  background-color: transparent;
+  margin-bottom: 5rem;
+  padding: 2rem; }
+  .nav-tours .nav-item {
+    font-size: 2.4rem;
+    font-weight: 900;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    transition: 0.2s ease;
+    background-color: #fbfbfb;
+    padding: 2rem;
+    margin-bottom: 2rem; }
+
 .header-text {
   font-size: 3.2rem;
   padding: 10rem 0 2rem 0;
@@ -385,4 +403,10 @@ footer {
     font-size: 30px;
     padding-bottom: 20rem; }
   .cont {
-    padding: 5rem; } }
+    padding: 5rem; }
+  .nav-tours {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .nav-tours .nav-item {
+      margin: 0 1rem; } }

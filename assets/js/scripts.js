@@ -47,10 +47,13 @@ $(document).ready(function () {
 	});
 });
 
-// scroll to section on different page when link is clicked
-
-
-
+$(window).on('resize', function() {
+    if($(window).width() > 991) {
+        $('#tours-nav').removeClass('flex-column');
+    }else{
+        $('#tours-nav').addClass('flex-column');
+    }
+})
 
 
 // animations
