@@ -8,8 +8,9 @@
 	padding: 3rem !important;
 	transition: all 0.4s ease;
 	.navbar-brand {
-		color: $black;
-		font-family: $f-oswald;
+		color: $brown;
+		font-family: $f-fanwood;
+		font-style: italic;
 		font-size: $f-bigger;
 		transition: 0.2s;
 		&:hover {

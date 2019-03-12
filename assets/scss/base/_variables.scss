@@ -1,12 +1,13 @@
 /* imports */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway|Oswald:400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Oswald:400,700|Fanwood+Text");
 
 /* colors */
 
 /* standard */
 
 $white: #fbfbfb;
+$light-grey: #ececec;
 $grey: rgba(183, 183, 183, 1);
 $black: #0e1013;
 $dark-grey: rgba(119, 119, 119, 1);
@@ -15,6 +16,7 @@ $dark-grey: rgba(119, 119, 119, 1);
 
 $blue: #16738f;
 $light-blue: #b9e1dc;
+$brown: #773800;
 $red: #ff610d;
 $purple: #6c5e81;
 
@@ -22,6 +24,7 @@ $purple: #6c5e81;
 
 $f-raleway: "Raleway", sans-serif;
 $f-oswald: "Oswald", sans-serif;
+$f-fanwood: 'Fanwood Text', serif;
 $f-small: 1.4rem;
 $f-normal: 2rem;
 $f-big: 2.4rem;
