@@ -18,10 +18,10 @@ body {
   font-weight: 300 !important;
   line-height: 3.4rem;
   color: #0e1013;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(white), to(#ececec));
-  background-image: -webkit-linear-gradient(top right, white, #ececec);
-  background-image: -o-linear-gradient(top right, white, #ececec);
-  background-image: linear-gradient(to bottom left, white, #ececec); }
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#16738f), to(#b9e1dc));
+  background-image: -webkit-linear-gradient(top right, #16738f, #b9e1dc);
+  background-image: -o-linear-gradient(top right, #16738f, #b9e1dc);
+  background-image: linear-gradient(to bottom left, #16738f, #b9e1dc); }
 
 p {
   font-size: 2rem; }
@@ -255,9 +255,8 @@ textarea {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease; }
   .navbar-custom .navbar-brand {
-    color: #773800;
-    font-family: "Fanwood Text", serif;
-    font-style: italic;
+    color: #0e1013;
+    font-family: "Raleway", sans-serif;
     font-size: 3.2rem;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
@@ -369,15 +368,15 @@ nav.navbar.shrink {
 
 .header-text {
   padding: 10rem 0 2rem 0;
-  color: #773800;
-  font-family: "Fanwood Text", serif;
+  color: #fbfbfb;
+  font-family: "Oswald", sans-serif;
   font-style: italic;
   font-size: 3.2rem; }
 
 .header-subtext {
-  padding-bottom: 10rem;
-  color: #773800;
-  font-family: "Fanwood Text", serif;
+  padding-bottom: 4rem;
+  color: #fbfbfb;
+  font-family: "Oswald", sans-serif;
   font-style: italic; }
 
 footer {
@@ -406,7 +405,7 @@ footer {
     font-size: 80px; }
   .header-subtext {
     font-size: 30px;
-    padding-bottom: 20rem; }
+    padding-bottom: 5rem; }
   .cont {
     padding: 5rem; }
   .nav-tours {
