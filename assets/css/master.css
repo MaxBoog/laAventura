@@ -3,7 +3,7 @@
 */
 /* BASE - Base styles, variables */
 /* imports */
-@import url("https://fonts.googleapis.com/css?family=Raleway|Oswald:400,700|Fanwood+Text");
+@import url("https://fonts.googleapis.com/css?family=Raleway|Nunito&display=swap");
 /* colors */
 /* standard */
 /* main */
@@ -256,7 +256,7 @@ textarea {
   transition: all 0.4s ease; }
   .navbar-custom .navbar-brand {
     color: #0e1013;
-    font-family: "Raleway", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 3.2rem;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
@@ -369,15 +369,13 @@ nav.navbar.shrink {
 .header-text {
   padding: 10rem 0 2rem 0;
   color: #fbfbfb;
-  font-family: "Oswald", sans-serif;
-  font-style: italic;
+  font-family: "Nunito", sans-serif;
   font-size: 3.2rem; }
 
 .header-subtext {
   padding-bottom: 4rem;
   color: #fbfbfb;
-  font-family: "Oswald", sans-serif;
-  font-style: italic; }
+  font-family: "Nunito", sans-serif; }
 
 footer {
   height: 100%;
