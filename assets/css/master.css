@@ -39,7 +39,7 @@ a {
     color: #ff610d; }
 
 .cont {
-  background-color: #fbfbfb;
+  background-color: white;
   border-radius: 7px;
   padding: 2rem;
   margin-bottom: 1rem; }
@@ -381,11 +381,11 @@ footer {
   height: 100%;
   margin-top: 2.5rem;
   padding: 3rem;
-  color: #0e1013; }
+  color: #fbfbfb; }
   footer hr {
-    border-color: #0e1013; }
+    border-color: #fbfbfb; }
   footer a {
-    color: #0e1013; }
+    color: #fbfbfb; }
     footer a:hover {
       color: #ff610d; }
 
