@@ -1,30 +1,43 @@
-/* imports */
+/*  
+	///////////////////////////////////////////
+	//									     //
+	//			VARIABLES & IMPORTS			 //
+	//									     //
+	///////////////////////////////////////////
+*/
+
+
+// imports 
 
 @import url("https://fonts.googleapis.com/css?family=Raleway|Nunito&display=swap");
 
-/* colors */
+// colors standerd
 
-/* standard */
-
-$white: #fbfbfb;
+$white: #ffffff;
 $light-grey: #ececec;
-$grey: rgba(183, 183, 183, 1);
-$black: #0e1013;
-$dark-grey: rgba(119, 119, 119, 1);
+$grey: rgb(207, 207, 207);
+$black: #636363;
+$dark-grey: rgb(94, 94, 94);
 
-/* main */
+// colors main
 
-$blue: #16738f;
+$blue: #1c86a7;
 $light-blue: #b9e1dc;
 $brown: #773800;
-$red: #ff610d;
+$red: #fa691b;
+$orange: #fd8544;
 $purple: #6c5e81;
+$dark-purple: #5f4d93;
 
-/* fonts */
+// fonts
 
-$f-raleway: "Raleway", sans-serif;
-$f-nunito: "Nunito", sans-serif;
-$f-small: 1.4rem;
-$f-normal: 2rem;
-$f-big: 2.4rem;
-$f-bigger: 3.2rem;
+$f-primary: "Raleway", sans-serif;
+$f-secondary: "Nunito", sans-serif;
+
+// font sizes
+
+$font-xs: 1.6rem;
+$font-s: 1.8rem;
+$font-m: 2.1rem;
+$font-l: 2.6rem;
+$font-xl: 3.4rem;

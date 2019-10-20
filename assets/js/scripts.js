@@ -1,7 +1,10 @@
-
-
-// all navbar related scripts
-
+/*  
+	///////////////////////////////////////
+	//									 //
+	//			CUSTOME SCRIPTS 		 //
+	//									 //
+	///////////////////////////////////////
+*/
 
 // function to make the navbar collapse after click.
 

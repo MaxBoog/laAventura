@@ -39,7 +39,9 @@
 				your experience and security.
 			</p>
 		<![endif]-->
+
 	<!-- spinner -->
+
 	<!-- <script>
 		document.querySelector("body").style.display = "none";
 		document.querySelector("html").classList.add("spinner-3");
@@ -84,9 +86,9 @@
 						<li class="nav-item">
 							<a class="nav-link pr-md-4" href="activities.html">activities</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link pr-md-4" href="service.html">services & accomodations</a>
-						</li>
+						</li> -->
 						<li class="nav-item">
 							<a class="nav-link pr-md-4" href="contact.html">contact</a>
 						</li>
@@ -107,50 +109,52 @@
 	</section>
 
 	<main role="main">
-		<div class="container cont marketing">
+		<div class="container-fluid cont marketing">
 			<div class="row">
-				<div class="col-md-4 p-5 p-md-0">
+				<div class="col-xl-4 p-5 p-lg-0 marketing-element">
 					<i class="fas fa-globe-americas fa-5x mb-5 short-icon"></i>
 					<h2><strong>Colombia</strong></h2>
-					<p>
+					<p class="marketing-text">
 						Carlito's Adventures is based in Medellín, Colombia. Medellín had a
 						glow up during the past few years and has become a beautiful area
 						to visit as a tourist.
 					</p>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-xl-4 marketing-element">
 					<i class="fas fa-hiking fa-5x mb-5 short-icon"></i>
 					<h2><strong>Tours</strong></h2>
-					<p>
+					<p class="marketing-text">
 						Carlito's Adventures organises all kinds of tours in and around
-						Medellín. Take a look at our <a href="tours.html">Tours</a> page
+						Medellín. Take a look at our <a href="tours.html">Tours <i class="fas fa-external-link-alt"></i></a> page
 						for all the details.
 					</p>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-xl-4 marketing-element">
 					<i class="fas fa-map-marked-alt fa-5x mb-5 short-icon"></i>
 					<h2><strong>Activities</strong></h2>
-					<p>
-						Aside from our awesome tours there are a lot of other activites you
+					<p class="markteting-text">
+						Aside from our awesome tours there are other activites you
 						can do and things you can explore in Medellín.
 					</p>
 				</div>
 			</div>
 
-			<hr />
+			<hr>
 
 			<div class="row featurette foo">
 				<div class="col-md-7">
 					<h2>Book Now!</h2>
+					<hr class="hr-2">
 					<p>
 						Book one of our tours now! Our bookings are handled via
 						<a href="https://www.planyo.com/">Planyo.com</a>. More information
 						about Planyo can be found on their website.
 					</p>
 					<p class="text-center">
-						<a href="#" class="btn btn-lg btn-CTA-1">Make a Booking!</a>
+						<a href="#" class="btn btn-CTA-1">Make a Booking</a>
+						<a href="contact.html" class="btn btn-CTA-2">Contact Us</a>
 					</p>
 				</div>
 				<div class="col-md-5">
@@ -158,13 +162,10 @@
 				</div>
 			</div>
 
-			<hr />
-
-			<div class="row featurette foo">
+			<!-- <div class="row featurette foo">
 				<div class="col-md-7 order-md-2">
 					<h2>
-						Second header
-						<span class="text-muted">Potential second subheader</span>
+						Tours
 					</h2>
 					<p>
 						(room for about 40 words) Lorem ipsum dolor sit amet consectetur
@@ -200,8 +201,8 @@
 				<div class="col-md-5">
 					<img class="img-fluid" src="assets/img/images/compass.jpg" alt="Carlito's Adventures" />
 				</div>
-			</div>
-		</div>
+			</div> -->
+		</div> 
 
 		<!-- footer -->
 
@@ -212,7 +213,7 @@
 						&copy; Copyright |
 						<a href="carlitosadventures.com">CarlitosAdventures.com</a>
 					</p>
-					<p style="font-size: 14px;" class="pt-2 text-center">
+					<p class="pt-2 text-center">
 						Webdesign by:<a href="https://www.delbellowebdesign.nl">
 							Del Bello Webdesign</a>
 					</p>
@@ -225,9 +226,9 @@
 					<p>
 						<a href="activities.html">Activities</a>
 					</p>
-					<p>
+					<!-- <p>
 						<a href="service.html">Services & Accomodations</a>
-					</p>
+					</p> -->
 					<p>
 						<a href="contact.html">Contact</a>
 					</p>
