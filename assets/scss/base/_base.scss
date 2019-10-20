@@ -59,11 +59,21 @@ hr
 	
 }
 
+li
+{
+	font-size: $font-s;
+}
 
 p 
 {
 	color: $dark-grey;
 	font-size: $font-m;
+}
+
+strong
+{
+	color: black !important;
+	font-weight: 900 !important;
 }
 
 

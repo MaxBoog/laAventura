@@ -58,9 +58,16 @@ hr {
   height: 2px;
   margin: 2rem 0; }
 
+li {
+  font-size: 1.8rem; }
+
 p {
   color: #5e5e5e;
   font-size: 2.1rem; }
+
+strong {
+  color: black !important;
+  font-weight: 900 !important; }
 
 .container-fluid {
   width: 80%; }
@@ -239,6 +246,20 @@ p {
     font-size: 2.1rem !important;
     margin-right: 0.75rem;
     margin-left: 0.75rem; }
+
+.tours h1 {
+  padding-top: 5rem; }
+
+.tours hr {
+  margin: 5rem 0 0 0; }
+
+.tours .hr-2 {
+  max-width: 10rem;
+  margin: 3rem 0; }
+
+.tours strong {
+  font-weight: 900 !important;
+  color: black; }
 
 /*  
 	///////////////////////////
@@ -465,8 +486,14 @@ footer {
 @media (max-width: 768px) {
   p {
     font-size: 1.6rem; }
+  li {
+    font-size: 1.6rem; }
   .navbar-custom .navbar-brand {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  .tours p {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 1rem; } }
 
 @media (max-width: 992px) {
   .cont {

@@ -73,6 +73,11 @@
 		font-size: $font-xs;
 	}
 
+	li 
+	{
+		font-size: $font-xs;
+	}
+
 	// footer
 
 	// header
@@ -96,6 +101,16 @@
 	// images
 
 	// sections
+
+	.tours
+	{
+		p
+		{
+			border: 1px solid $light-grey;
+			border-radius: 5px;
+			padding: 1rem;
+		}
+	}
 }
 
 @media (max-width: 992px)
