@@ -98,6 +98,21 @@
 
 	// forms
 
+	input[type="text"] 
+	{
+		font-size: $font-xs !important;
+	}
+	
+	input[type="email"] 
+	{
+		font-size: $font-xs !important;
+	}
+	
+	input[type="tel"] 
+	{
+		font-size: $font-xs !important;
+	}
+
 	// images
 
 	// sections

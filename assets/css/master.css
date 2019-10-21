@@ -417,7 +417,9 @@ nav.shrink {
         transition: ease all 0.2s; }
 
 .navbar-tours {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  padding-bottom: 1.5rem;
+  padding-top: 4rem; }
   .navbar-tours .nav-link {
     border-radius: 8px;
     color: #636363; }
@@ -490,6 +492,12 @@ footer {
     font-size: 1.6rem; }
   .navbar-custom .navbar-brand {
     font-size: 1.8rem; }
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+    font-size: 1.6rem !important; }
+  input[type="email"] {
+    font-size: 1.6rem !important; }
+  input[type="tel"] {
+    font-size: 1.6rem !important; }
   .tours p {
     border: 1px solid #ececec;
     border-radius: 5px;

@@ -40,6 +40,16 @@
 			</p>
 		<![endif]-->
 
+		<script>
+			document.querySelector("body").style.display = "none";
+			document.querySelector("html").classList.add("spinner-3");
+	
+			setTimeout(function () {
+				document.querySelector("html").classList.remove("spinner-3");
+				document.querySelector("body").style.display = "block";
+			}, 1000);
+		</script>
+
 	<!-- body -->
 
 	<button class="btn scrollToTop">
@@ -87,12 +97,16 @@
 	</header>
 	<section class="container">
 		<div class="row">
-			<h1 class="mx-auto header-text">Tours</h1>
+			<h1 class="mx-auto header-text" style="padding-top: 5rem !important;">Tours</h1>
+			<div class="col-sm-12 text-center">
+				<p class="header-subtext">Click on one of our tours for more information!</p>
+				<p><a href="#tours"><i class="fas fa-chevron-down fa-lg" style="color: white"></i></a></p>
+			</div>
 		</div>
 		<hr>
 	</section>
 
-	<section class="container cont">
+	<section class="container cont" id="tours">
 		<div class="row">
 			<div class="col">
 				<ul class="nav justify-content-center navbar-tours">

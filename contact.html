@@ -40,6 +40,16 @@
 			</p>
 		<![endif]-->
 
+		<script>
+			document.querySelector("body").style.display = "none";
+			document.querySelector("html").classList.add("spinner-3");
+	
+			setTimeout(function () {
+				document.querySelector("html").classList.remove("spinner-3");
+				document.querySelector("body").style.display = "block";
+			}, 1000);
+		</script>
+
 	<!-- body -->
 
 	<button class="btn scrollToTop">
@@ -88,6 +98,10 @@
 	<section class="container">
 		<div class="row">
 			<h1 class="mx-auto header-text">Contact Us!</h1>
+			<div class="col-sm-12 text-center">
+					<p class="header-subtext">Want to book one of our tours? Or do you have any questions? Send us an email and we get back to you soon!</p>
+					
+				</div>
 		</div>
 		<hr>
 	</section>
@@ -95,6 +109,7 @@
 	<main role="main">
 		<section class="container cont">
 			<div class="row">
+				<h1 class="mx-auto pb-5">Contact Form</h1>
 				<div class="col-md-12">
 					<form id="contact-form" name="contact-form-carlitos" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                         <div class="controls">
