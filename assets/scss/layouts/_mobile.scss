@@ -96,6 +96,16 @@
 
 	// components
 
+	.carousel-control-prev
+	{
+		display: none !important;
+	}
+
+	.carousel-control-next
+	{
+		display: none !important;
+	}
+
 	// forms
 
 	input[type="text"] 
@@ -234,6 +244,11 @@
 	// buttons
 
 	// components
+
+	.swipe
+	{
+		display: none;
+	}
 
 	// forms
 

@@ -492,6 +492,10 @@ footer {
     font-size: 1.6rem; }
   .navbar-custom .navbar-brand {
     font-size: 1.8rem; }
+  .carousel-control-prev {
+    display: none !important; }
+  .carousel-control-next {
+    display: none !important; }
   input[type="text"], input[type="email"], input[type="tel"], textarea {
     font-size: 1.6rem !important; }
   input[type="email"] {
@@ -520,6 +524,10 @@ footer {
     margin-top: 1rem;
     min-width: 13rem;
     padding: 1.5rem; } }
+
+@media (min-width: 768px) {
+  .swipe {
+    display: none; } }
 
 @media (min-width: 992px) {
   .cont {
