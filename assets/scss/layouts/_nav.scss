@@ -20,6 +20,11 @@ nav.shrink
 	padding: 3rem !important;
 	transition: all 0.4s ease;
 
+	.img-logo
+	{
+		max-width: 150px;
+	}
+
 	.navbar-brand 
 	{
 		color: $black;

@@ -1,5 +1,5 @@
 /*
-	Carlitos Adventures
+	La Aventura
 */
 /* BASE - Base styles, variables */
 /*  
@@ -342,6 +342,8 @@ nav.shrink {
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease; }
+  .navbar-custom .img-logo {
+    max-width: 150px; }
   .navbar-custom .navbar-brand {
     color: #636363;
     font-family: "Nunito", sans-serif;
@@ -490,6 +492,8 @@ footer {
     font-size: 1.6rem; }
   li {
     font-size: 1.6rem; }
+  .navbar-custom .img-logo {
+    max-width: 10rem !important; }
   .navbar-custom .navbar-brand {
     font-size: 1.8rem; }
   .carousel-control-prev {

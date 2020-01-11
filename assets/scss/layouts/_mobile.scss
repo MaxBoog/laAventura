@@ -86,6 +86,11 @@
 
 	.navbar-custom
 	{
+		.img-logo
+		{
+			max-width: 10rem !important;
+		}
+
 		.navbar-brand
 		{
 			font-size: $font-s;
